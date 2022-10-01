@@ -27,13 +27,14 @@ class InnerMultiThreading extends Thread {
 }
 
 public class MultiThreading {
-// 
+
     static class Task implements Callable<Integer> {
         int num;
 
         Task(int n) {
             this.num = n;
         }
+        // 
 
         @Override
         public Integer call() throws Exception {
