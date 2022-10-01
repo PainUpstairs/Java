@@ -27,7 +27,7 @@ class InnerMultiThreading extends Thread {
 }
 
 public class MultiThreading {
-
+// 
     static class Task implements Callable<Integer> {
         int num;
 
